@@ -36,12 +36,12 @@ public class AES {
                 System.out.print("请输入要解密的密文：");
                 String de_str = sc.nextLine();
                 System.out.println(decrypt(de_str));
-                break;
             } else if (type.equals("e")) {
                 // 加密
                 System.out.print("请输入要解密的密文：");
                 String en_str = sc.nextLine();
                 System.out.println(encrypt(en_str));
+            } else if (type.equals("exit")){
                 break;
             }
 
