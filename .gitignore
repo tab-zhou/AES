@@ -17,4 +17,4 @@ kratos.egg-info
 InitLibrary/keshang/tmp
 startup.py
 workspace.xml
-.iml
+*.iml
